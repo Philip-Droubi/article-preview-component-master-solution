@@ -59,8 +59,8 @@ main {
     min-height: 280px;
     border-radius: 10px;
     background-color: white;
-    transform: translateY(-11px);
-    box-shadow: 5px 7px 9px 1px hsla(212, 23%, 69%, 0.4);
+    transform: translateY(48px);
+    box-shadow: 5px 7px 9px 1px hsla(212, 23%, 69%, 0.16);
 }
 
 main .left {
@@ -206,6 +206,7 @@ button:hover {
 
 footer {
     width: 100%;
+    margin-top: 57px;
 }
 
 .attribution {
@@ -241,6 +242,10 @@ footer {
 
     .attribution {
         margin-top: 40px;
+    }
+
+    footer {
+        margin: 0 !important;
     }
 }
 
